@@ -1,0 +1,61 @@
+Needs:
+
+1. Ruby
+2. Rails
+3. Plan an app
+   ->
+
+
+
+
+
+
+Tools:
+
+
+Homebrew
+
+Install packages or programming languages
+
+https://brew.sh/
+
+
+
+Install ruby
+
+
+https://gorails.com/setup/osx/10.13-high-sierra
+
+brew install rbenv ruby-build
+
+
+
+
+Rubygems
+
+Explore & find ruby packages
+
+https://rubygems.org/gems/rails/versions
+
+Github
+
+Project:
+
+https://github.com/soeffing/toy_app
+
+
+Update code to github
+
+git push origin master
+
+Can check commit history on Github
+
+
+TO download from git use this command:
+
+git clone https://github.com/soeffing/toy_app.git
+
+
+
+
+
