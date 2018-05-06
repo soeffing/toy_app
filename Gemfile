@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.4'
@@ -26,6 +26,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem 'carrierwave', '~> 0.11.2'
+
+
+gem 'pry', '~> 0.10.3'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

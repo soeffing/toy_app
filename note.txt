@@ -3,14 +3,41 @@ Needs:
 1. Ruby
 2. Rails
 3. Plan an app
-   ->
+
+   Models:
+
+   -> Users
+      -> id, username, email, password, account_type
+      -> user can create Profile
+
+    -> Profile
+        -> name, height, other attributes
+        -> user_id = 2
+
+    Account
+      -> free, paying, gold, diamons
 
 
+
+
+Reading List:
+
+MVC + Rails
+  -> https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/
+
+Rails Models
+Rails Controller
+Rails Routes
 
 
 
 
 Tools:
+
+
+Rails scaffolds
+
+rails generate scaffold Profile first_name:string last_name:string birth_date:date user_id:integer:uniq
 
 
 Homebrew
